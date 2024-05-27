@@ -2,6 +2,10 @@ import { RiReactjsLine } from "react-icons/ri";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
+import { SiSpring } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+
 import { motion } from "framer-motion";
 
 const inconVariants = (duration) => ({
@@ -20,9 +24,12 @@ const inconVariants = (duration) => ({
 const Technologies = () => {
   const technologies = [
     <FaNodeJs className="text-7xl text-green-400" />,
-    <SiMongodb className="text-7xl text-green-400" />,
+    <SiMongodb className="text-7xl text-green-500" />,
     <SiTailwindcss className="text-7xl text-cyan-400" />,
     <RiReactjsLine className="text-7xl text-cyan-400" />,
+    <FaAngular className="text-7xl text-red-400" />,
+    <SiSpring className="text-7xl text-green-400" />,
+    <SiMysql className="text-7xl text-blue-400" />,
   ];
   return (
     <div className="border-b border-neutral-800 pb-24">

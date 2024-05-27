@@ -6,6 +6,8 @@ import { FaAngular } from "react-icons/fa";
 import { SiSpring } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 
+import { FaGitAlt } from "react-icons/fa";
+
 import { motion } from "framer-motion";
 
 const inconVariants = (duration) => ({

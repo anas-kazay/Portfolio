@@ -46,7 +46,7 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
+        <div className="w-full lg:w-1/2 lg:p-8 x">
           <div className="flex justify-center" style={{ opacity: 0.9 }}>
             <motion.img
               initial={{ opacity: 0, x: 100 }}

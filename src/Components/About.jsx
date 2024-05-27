@@ -50,9 +50,9 @@ const About = () => {
             </p>
           </div>
           <motion.h3
-            variants={container(1)}
-            initial="hidden"
-            animate="visible"
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: -100 }}
+            transition={{ duration: 0.5 }}
             className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent"
           >
             <a href={resume} download>

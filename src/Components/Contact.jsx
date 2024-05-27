@@ -1,5 +1,7 @@
+import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
+import { MdAlternateEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
@@ -19,6 +21,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
+          <FaLocationDot className="inline-block mr-2" />
           {CONTACT.address}
         </motion.p>
         <motion.p
@@ -27,9 +30,11 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
+          <FaPhone className="inline-block mr-2" />
           {CONTACT.phoneNo}
         </motion.p>
         <a href="" className="border-b">
+          <MdAlternateEmail className="inline-block mr-2" />
           {CONTACT.email}
         </a>
       </div>

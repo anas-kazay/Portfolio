@@ -36,7 +36,9 @@ const Education = () => {
                   {education.distinction}
                 </span>
               </p>
-              <p className="mb-4 text-neutral-400">{education.description}</p>
+              <p className="mb-4 text-purple-800">
+                Option : {education.option}
+              </p>
             </motion.div>
           </div>
         ))}

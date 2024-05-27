@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     year: " April & May 2022",
     role: "Full Stack Developer",
     company: "Intuitive Design",
-    description: `Developing an ecommece website to sell cosmitic products`,
+    description: `Developing an e-commece website to sell cosmitic products.`,
     technologies: ["PHP", "MySql", "JavaScript", "Bootstrap"],
   },
   {
@@ -64,7 +64,7 @@ export const CONTACT = {
 export const EDUCATION = [
   {
     title:
-      "State engineering diplomaEcole Normale Supérieure de l’Enseignement Technique Mohammedia",
+      "State Engineering degree. Ecole Normale Supérieure de l’Enseignement Technique Mohammedia",
     option: "Software and Distributed Computer Systems Engineering.",
     year: "2022- present",
     distinction: "",

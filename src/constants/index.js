@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 
 export const HERO_CONTENT = `Passionate about coding, proficient in modern technologies, and equipped with a solid foundation in software and distributed computer systems engineering. Currently pursuing a State Engineering diploma at Ecole Normale Supérieure de l’Enseignement Technique Mohammedia, I specialize in backend development, frontend frameworks, and DevOps tools. Let's build innovative solutions together.`;
@@ -10,11 +10,27 @@ Proficient in Java, JavaScript, C, C++, and PHP, I also have strong database man
 
 export const EXPERIENCES = [
   {
+    year: "June - August 2024",
+    role: "Engineering Intern",
+    company: "Marketing Confort, Fès",
+    description: `Participation in the development of two microservices for a transportation company. The first was a control service, and the second, a document demand management service.`,
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "ReactJS",
+      "NextJS",
+      "Jira",
+      "Gitlab",
+    ],
+    duration: "3 months",
+  },
+  {
     year: " August 2023",
     role: "Full Stack Developer",
     company: "From Telecom",
     description: `Developing a farm managemet system, that will be intergated with IoT devices. To help farmers manage their Milking devices and increase their productivity.`,
     technologies: ["PHP", "MySql", "JavaScript", "Bootstrap"],
+    duration: "1 month",
   },
   {
     year: " April & May 2022",
@@ -22,36 +38,39 @@ export const EXPERIENCES = [
     company: "Intuitive Design",
     description: `Developing an e-commece website to sell cosmitic products.`,
     technologies: ["PHP", "MySql", "JavaScript", "Bootstrap"],
+    duration: "2 months",
   },
   {
     year: " August 2021",
     role: "Frontend Developer",
     company: "AJI COD",
     description: `Developing a portolio for the manager of the company.`,
-    technologies: ["JavaScript", "Bootstrao"],
+    technologies: ["JavaScript", "Bootstrap"],
+    duration: "1 month",
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Banking Website",
+    title: "Food Ordering Management System",
     image: project1,
     description:
-      "An e-commerce website that help managers to manage  bank accounts and transactions.",
-    technologies: ["Spring Boot", "Angular", "Bootstrap", "MySql"],
+      "The Food Ordering Management System provides a comprehensive platform for restaurant owners and clients alike. Restaurant owners can easily create accounts, publish their establishments, select their cuisine types, and manage their menus. They have the ability to view incoming orders and update their statuses efficiently. Clients, on the other hand, can create personal accounts to browse and order food, customizing their meals down to the ingredient level. Additionally, they can track the status of their deliveries and apply various filters to refine their food searches based on specific criteria. This system streamlines the ordering process, enhancing the overall dining experience for both restaurant owners and customers.",
+    technologies: ["Spring Boot", "Java", "React", "Tailwind", "MySql"],
   },
   {
     title: "Blog website",
     image: project2,
     description:
-      "A blog that can be used for by anowone to post. He just need to create an account, and he is good to go.",
+      "A blog that can be used by anyone to post. They just need to create an account, and they are good to go.",
     technologies: ["NodeJs", "React", "Tailwind", "MongoDB"],
   },
   {
-    title: "Todo App",
+    title: "E-Banking Website",
     image: project3,
-    description: "A simple todo app that help you to manage your tasks.",
-    technologies: ["Spring Boot", "React", "Bootstrap", "h2-database"],
+    description:
+      "An e-commerce website that helps managers manage bank accounts and transactions.",
+    technologies: ["Spring Boot", "Angular", "Bootstrap", "MySql"],
   },
 ];
 

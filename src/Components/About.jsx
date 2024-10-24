@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/about.jpg";
+import aboutImg from "../assets/anas2.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 import resume from "../assets/resume.pdf";
@@ -34,7 +34,12 @@ const About = () => {
               className="rounded-2xl"
               src={aboutImg}
               alt=""
-              style={{ opacity: 0.5 }}
+              style={{
+                opacity: 0.5,
+                width: "100%",
+                height: "600px",
+                objectFit: "cover",
+              }}
             />
           </div>
         </motion.div>

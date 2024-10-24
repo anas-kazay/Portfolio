@@ -7,6 +7,7 @@ import Technologies from "./Technologies";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Certifications from "./Certifications";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Technologies />
       <Experience />
       <Projects />
+      <Certifications />
       <Contact />
     </>
   );

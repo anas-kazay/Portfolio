@@ -24,8 +24,8 @@ const Projects = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                height={150}
-                width={150}
+                height={300}
+                width={300}
                 className="mb-6 rounded"
               />
             </motion.div>
